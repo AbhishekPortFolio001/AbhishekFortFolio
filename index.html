@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .about, .work, .contact {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            margin-top: 10px;
+        }
+        .project-card {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        a {
+            color: #00e1ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Abhishek's Portfolio</h1>
+    </header>
+    
+    <section class="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Abhishek's Profile" class="profile-img">
+        <p>Hello! I am Abhishek, a freelancer working on Fiverr and other platforms.</p>
+        <p><strong>Work Expertise:</strong></p>
+        <ul>
+            <li>MS Excel (Pivot Table, Vlookup etc.)</li>
+            <li>MS Word</li>
+            <li>Tally Prime, Tally ERP9 Software</li>
+        </ul>
+        <p><strong>Currently Working At:</strong> Sandeep Logistics India Pvt Ltd</p>
+        <p><strong>Work Responsibilities:</strong></p>
+        <ul>
+            <li>Maintaining Sale & Purchase Entries</li>
+            <li>Monthly Reports of Sales</li>
+            <li>Maintaining Daily Expenses Voucher in Tally</li>
+        </ul>
+    </section>
+    
+    <section class="work">
+        <h2>My Work</h2>
+        <div class="project-card">
+            <a href="projects/project1.pdf" download>Download Project 1</a>
+        </div>
+        <div class="project-card">
+            <a href="projects/project2.pdf" download>Download Project 2</a>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Abhishek. All rights reserved.</p>
+    </footer>
+</body>
+</html>
