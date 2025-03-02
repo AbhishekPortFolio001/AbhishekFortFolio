@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about, .work, .contact {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-top: 10px;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+a {
+    color: #00e1ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 14px;
+}
